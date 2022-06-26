@@ -1,0 +1,1384 @@
+@font-face {
+    font-family: "Century_Gothic";
+    src: url(../fonts/tradegothicltstd.ttf);
+}
+
+@font-face {
+    font-family: "Ogg-Regular";
+    src: url(../fonts/Ogg-Regular.ttf);
+}
+
+@font-face {
+    font-family: "TradeGothicLTStd_extended";
+    src: url(../fonts/TradeGothicLTStd_Extended.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Century_Gothic";
+    color: #000;
+}
+
+/*header*/
+.header .top2 {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.header .top2 p {
+    margin: 0px;
+    padding: 0 10px;
+}
+
+.header .container .icons {
+    width: 85px;
+    margin-left: auto;
+}
+
+.header .container .icons a {
+    text-decoration: none;
+}
+
+.header .logo a:last-child img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header .logo a:first-child {
+    display: block;
+    width: 67px;
+    height: 96px;
+    margin: 0 auto;
+    background-image: url(../img/Logomark_Black_Hat_Sprite.png);
+}
+
+.header .logo:hover a:first-child {
+    background-position: bottom center;
+}
+
+.header .navbar .collapse .navbar-nav {
+    margin: 0 auto;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item {
+    padding: 0 20px;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item a {
+    font-weight: bold;
+    white-space: nowrap;
+    color: #000;
+}
+
+.header .navbar button {
+    border: 0;
+    outline: none;
+}
+
+/*header*/
+
+
+/*section-about*/
+.section-about {
+    background-color: #000;
+}
+
+.section-about h1 {
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Ogg-Regular";
+    font-size: 61px;
+    color: #fff;
+}
+
+.section-about .about-text {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0px 15px 30px 15px;
+}
+
+.section-about p {
+    text-align: center;
+    font-size: 18px;
+    word-spacing: 1px;
+    color: #fff;
+}
+
+.section-stars {
+    position: relative;
+    height: 125px;
+    background-image: url(../img/Group%207.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    overflow: hidden;
+}
+
+.section-stars h2 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.section-stars h2 a {
+    font-family: "Ogg-Regular";
+    text-decoration: none;
+    color: #000;
+}
+
+.section-stars img {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+/*section-about*/
+
+
+/*section-person*/
+.section-person {
+    position: relative;
+    height: 518px;
+    background-color: #F4BAB5;
+}
+
+.section-person .container #myCarousel .carousel-indicators {
+    position: absolute;
+    bottom: -65px;
+}
+
+.section-person .container .carousel-item img {
+    margin-left: 30px
+}
+
+.section-person .container .carousel-item .inner-zero a {
+    position: absolute;
+    left: 135px;
+    top: 410px;
+    padding: 2px 8px 2px 30px;
+    font-weight: bold;
+    font-family: "TradeGothicLTStd_extended";
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 12px;
+    color: #000;
+}
+
+.section-person .container .carousel-item .inner-zero a::before {
+    content: url('../img/Oval.png');
+    position: absolute;
+    top: 1px;
+    left: 10px;
+}
+
+.section-person .container .inner-one {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    text-align: center;
+}
+
+.section-person .container .inner-one h1 {
+    font-size: 60px;
+    font-family: "Ogg-Regular";
+}
+
+.section-person .container .inner-one h6 {
+    font-weight: bold;
+    font-family: "TradeGothicLTStd_extended";
+}
+
+.section-person .container .inner-two {
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    width: 400px;
+    height: 200px;
+}
+
+.section-person .container .inner-two p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: "TradeGothicLTStd_extended";
+    text-align: center;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+.section-person .container .inner-two p span {
+    font-family: "TradeGothicLTStd_extended";
+}
+
+.section-person .container .carousel-item .inner-two p + a {
+    margin-left: 105px;
+    padding: 5px 60px;
+    font-weight: bold;
+    font-family: "TradeGothicLTStd_extended";
+    text-decoration: none;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/*section-person*/
+
+
+/*---section-gallery---*/
+.section-gallery {
+    position: relative;
+}
+
+.section-gallery .container .row h1 {
+    width: 100%;
+    margin: 30px 0px;
+    padding: 0px 10px;
+    text-align: center;
+    font-family: "Ogg-Regular";
+}
+
+.section-gallery .container .row .gallery-item {
+    white-space: nowrap;
+}
+
+.section-gallery .container .row .gallery-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.section-gallery .container .row .gallery-item h2 {
+    margin-top: -40px;
+    text-align: center;
+    font-family: "Ogg-Regular";
+}
+
+.section-gallery .container .row .gallery-item h2 a {
+    text-decoration: none;
+    transition: color 2s;
+    color: #000;
+}
+
+.section-gallery .container .row .gallery-item h2 a:hover {
+    color: #c43939;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(3) h2 a:hover,
+.section-gallery .container .row .gallery-item:nth-child(7) h2 a:hover,
+.section-gallery .container .row .gallery-item:nth-child(10) h2 a:hover,
+.section-gallery .container .row .gallery-item:nth-child(11) h2 a:hover {
+    color: #629846;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(2) h2 a:hover,
+.section-gallery .container .row .gallery-item:nth-child(6) h2 a:hover,
+.section-gallery .container .row .gallery-item:nth-child(8) h2 a:hover,
+.section-gallery .container .row .gallery-item:nth-child(13) h2 a:hover {
+    color: #e8ab20;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(2) {
+    background-image: url(../img/bg_1.png);
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(2) .bag {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    border: none;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(2):hover .bag {
+    -webkit-animation-name: tada;
+    -o-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(3) {
+    background-image: url(../img/bg_2.png);
+    background-repeat: no-repeat;
+    background-position: 55% 40%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(4) {
+    background-image: url(../img/bg_3.png);
+    background-repeat: no-repeat;
+    background-position: 80% 10%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(4) .light {
+    position: absolute;
+    top: -10%;
+    left: 65%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(4):hover .light {
+    -webkit-animation-name: tada;
+    -o-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(5) {
+    background-image: url(../img/bg_4.png);
+    background-repeat: no-repeat;
+    background-position: 40% 15%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(6) {
+    background-image: url(../img/bg_5.png);
+    background-repeat: no-repeat;
+    background-position: 90% 60%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(6) .search {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    border: none;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(6):hover .search {
+    -webkit-animation-name: wobble;
+    -o-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(7) {
+    background-image: url(../img/bg_6.png);
+    background-repeat: no-repeat;
+    background-position: 60% 8%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(8) {
+    background-image: url(../img/bg_7.png);
+    background-repeat: no-repeat;
+    background-position: 25% 15%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(8) .clown {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    border: none;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(8):hover .clown {
+    -webkit-animation-name: wobble;
+    -o-animation-name: wobble;
+    animation-name: wobble;
+    -webkit-animation-duration: 1500ms;
+    -o-animation-duration: 1500ms;
+    animation-duration: 1500ms;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(9) {
+    background-image: url(../img/bg_8.png);
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(10) {
+    background-image: url(../img/bg_9.png);
+    background-repeat: no-repeat;
+    background-position: 85% -13%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(11) {
+    background-image: url(../img/bg_10.png);
+    background-repeat: no-repeat;
+    background-position: 20% 45%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(12) {
+    background-image: url(../img/bg_11.png);
+    background-repeat: no-repeat;
+    background-position: 55% 40%;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(12) .tent {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    border: none;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(12):hover .tent {
+    -webkit-animation-name: tada;
+    -o-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.section-gallery .container .row .gallery-item:nth-child(13) {
+    background-image: url(../img/bg_12.png);
+    background-repeat: no-repeat;
+    background-position: 85% 5%;
+}
+
+
+/*animation_tada*/
+@-webkit-keyframes tada {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+
+    10%,
+    20% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/*animation_tada*/
+
+/*animation_wobble*/
+@-webkit-keyframes wobble {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    15% {
+        -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+        transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+
+    30% {
+        -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+        transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+
+    45% {
+        -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+        transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+
+    60% {
+        -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+        transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    }
+
+    75% {
+        -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+        transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+/*animation_wobble*/
+
+
+/*footer*/
+footer {
+    position: relative;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+footer .container {
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer .container .accordion {
+    display: none;
+}
+
+footer .container div {
+    float: left;
+    margin: 70px 0px;
+    margin-right: 4%;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer .container .first {
+    width: 16.5%;
+}
+
+footer .container .second {
+    width: 15.5%;
+}
+
+footer .container .third {
+    width: 15%
+}
+
+footer .container .fourth {
+    width: 7.5%;
+}
+
+footer .container .fifth {
+    width: 29.5%;
+    margin-right: 0%;
+}
+
+footer .fifth h6 {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "TradeGothicLTStd_extended";
+    line-height: 23px;
+}
+
+footer .container div ul li {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "TradeGothicLTStd_extended";
+    list-style: none;
+}
+
+footer .container div ul li:first-child {
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+footer .container div ul li a {
+    text-decoration: none;
+    font-family: "TradeGothicLTStd_extended";
+    transition: letter-spacing 1s;
+    color: #000;
+}
+
+footer .container div ul li a:hover {
+    letter-spacing: 0.5px;
+}
+
+footer form {
+    float: left;
+    width: 350px;
+}
+
+footer form input[type="email"] {
+    width: 330px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background-color: #f2f2f2;
+}
+
+footer form input[type="email"]:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+}
+
+footer form button {
+    margin-left: -25px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+
+footer form button:hover {
+    border: none;
+    outline: none;
+}
+
+.under-footer {
+    height: 100px
+}
+
+/*footer*/
+
+
+/*Media queries*/
+@media screen and (max-width: 1320px) {
+    .section-person .carousel-item img {
+        margin-left: 15px
+    }
+
+    .section-person .carousel-item .inner-zero a {
+        left: 125px;
+    }
+
+    .section-person .inner-one {
+        right: 55px;
+    }
+
+    .section-person .inner-one h1 {
+        font-size: 60px
+    }
+
+    .section-person .inner-two {
+        right: 125px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section-person .container .carousel-item img {
+        margin-left: -20px
+    }
+
+    .section-person .container .carousel-item .inner-zero a {
+        left: 85px;
+    }
+
+    .section-person .container .inner-one {
+        right: 0px;
+    }
+
+    .section-person .container .inner-two {
+        right: 55px;
+    }
+
+    footer .container div {
+        margin-right: 2%;
+    }
+
+    footer .container .first {
+        width: 19.5%;
+    }
+
+    footer .container .second {
+        width: 17.5%;
+    }
+
+    footer .container .second ul li:last-child a:hover {
+        letter-spacing: 0.3px;
+    }
+
+    footer .container .third {
+        width: 17%
+    }
+
+    footer .container .fourth {
+        width: 8.5%
+    }
+
+    footer .container .fifth {
+        width: 29.5%;
+        margin-right: 0%;
+    }
+
+    footer form input[type="email"] {
+        width: 275px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header .navbar .collapse .navbar-nav .nav-item {
+        padding: 0 9px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    header .navbar button {
+        position: absolute;
+        top: -200px;
+        left: 0px;
+    }
+
+    .section-stars {
+        background-position: -50px -25px;
+    }
+
+    .section-stars img {
+        right: -155px;
+    }
+
+    .section-person {
+        height: 418px;
+    }
+
+    .section-person .container #myCarousel .carousel-indicators {
+        bottom: -60px;
+    }
+
+    .section-person .container .carousel-item img {
+        margin-left: -40px;
+        width: 350px
+    }
+
+    .section-person .container .carousel-item .inner-zero a {
+        left: 22px;
+        top: 330px;
+    }
+
+    .section-person .container .inner-one {
+        top: 80px;
+        right: 0px;
+    }
+
+    .section-person .container .inner-one h1 {
+        font-size: 46px
+    }
+
+    .section-person .container .inner-two {
+        position: absolute;
+        top: 210px;
+        right: 20px;
+        width: 350px;
+        height: 140px;
+    }
+
+    .section-person .container .inner-two p {
+        margin-bottom: 30px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-person .container .inner-two p span {
+        font-family: "TradeGothicLTStd_extended";
+    }
+
+    .section-person .container .carousel-item .inner-two p + a {
+        margin-left: 100px;
+        padding: 5px 50px;
+    }
+
+    footer .container {
+        position: relative;
+        min-height: 340px;
+        height: auto;
+        padding-top: 150px;
+    }
+
+    footer .container .accordion {
+        display: block;
+    }
+
+    footer .container div {
+        margin: 5px 0;
+    }
+
+    footer .container .first {
+        width: 100%;
+    }
+
+    footer .container .second {
+        width: 100%;
+    }
+
+    footer .container .third {
+        width: 100%
+    }
+
+    footer .container .fourth {
+        width: 100%;
+    }
+
+    footer .container .fourth .first-list {
+        display: none;
+    }
+
+    footer .container .fourth .second-list {
+        float: none;
+        width: 70px;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    footer .container .fourth .second-list .fb a {
+        display: block;
+        width: 32px;
+        height: 32px;
+        background-image: url(../img/fb_sprite.png);
+    }
+
+    footer .container .fourth .second-list .fb a:hover {
+        background-position: bottom center;
+    }
+
+    footer .container .fourth .second-list .inst a {
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin-left: 6px;
+        background-image: url(../img/inst_sprite.png);
+    }
+
+    footer .container .fourth .second-list .inst a:hover {
+        background-position: bottom center;
+    }
+
+    footer .container .fifth {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    footer form input[type="email"] {
+        width: 275px;
+    }
+
+    footer .container .accordion {
+        width: 100%;
+        margin: -5px 0;
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "TradeGothicLTStd_extended";
+        text-align: left;
+        border: none;
+        border-top: 1px solid #000;
+        cursor: pointer;
+        outline: none;
+        transition: 0.4s;
+        background-color: transparent;
+        color: #000;
+    }
+
+    footer .container .fourth {
+        border-top: 1px solid #000;
+        margin: -5px 0;
+    }
+
+    footer .container div ul li a {
+        transition: letter-spacing 1s;
+    }
+
+    .accordion:after {
+        content: url(../img/plus.png);
+        float: right;
+        padding: 0px;
+        height: 18px;
+        font-weight: bold;
+    }
+
+    .active_ac:after {
+        content: url(../img/minus.png);
+    }
+
+    .panel {
+        max-height: 0;
+        margin-left: 30px;
+        padding: 0px 0px 0 30px;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        border: none;
+    }
+
+    footer .container .panel ul {
+        padding: 0px 0px 0 20px;
+    }
+
+    footer .container div ul:nth-child(1) li:first-child,
+    footer .container div ul:nth-child(2) li:first-child,
+    footer .container div ul:nth-child(3) li:first-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .section-person {
+        height: 418px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+        .section-about h1 {
+            padding-top: 40px;
+            font-size: 50px;
+        }
+
+        .section-stars {
+            background-position: -48px -29px;
+        }
+
+        .section-stars img {
+            right: -170px;
+        }
+
+        .section-person {
+            height: 970px;
+        }
+
+        .section-person .container .carousel-item img {
+            display: block;
+            width: 430px;
+            margin: 0 auto;
+            margin-top: 130px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a {
+            width: 350px;
+            top: 540px;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 2px 0 2px 35px;
+            font-size: 28px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a::before {
+            content: url('../img/Oval.png');
+            position: absolute;
+            top: -3px;
+            left: 14px;
+        }
+
+        .section-person .container .inner-one {
+            width: 500px;
+            height: 120px;
+            top: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-person .container .inner-one h6 {
+            padding-bottom: 15px;
+            font-size: 33px;
+        }
+
+        .section-person .container .inner-one h1 {
+            font-size: 46px
+        }
+
+        .section-person .container .inner-two {
+            width: 400px;
+            top: 610px;
+            left: 50%;
+            transform: translateX(-50%);
+
+        }
+
+        .section-person .container .inner-two p {
+            font-size: 24px;
+            letter-spacing: 0;
+            line-height: 35px;
+            text-align: center;
+        }
+
+        .section-person .inner-two p span:nth-child(1) {
+            display: none;
+        }
+
+        .section-person .inner-two p span:nth-child(2) {
+            padding: 0 27px;
+        }
+
+        .section-person .container #myCarousel .carousel-indicators {
+            width: 320px;
+            bottom: 25px;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+
+        .section-person .container #myCarousel {
+            height: 970px;
+        }
+
+        .section-person .container .carousel-inner {
+            height: 970px;
+        }
+
+        .section-person .container .carousel-item .inner-two p + a {
+            display: block;
+            width: 360px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 30px;
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+        .section-about h1 {
+            font-size: 40px;
+        }
+
+        .section-stars {
+            background-position: -48px -32px;
+        }
+
+        .section-stars img {
+            right: -205px;
+        }
+
+        .section-person {
+            height: 920px;
+        }
+
+        .section-person .container #myCarousel {
+            height: 920px;
+        }
+
+        .section-person .container .carousel-inner {
+            height: 920px;
+        }
+
+        .section-person .container #myCarousel .carousel-indicators {
+            bottom: 20px;
+        }
+
+        .section-person .container .carousel-item img {
+            display: block;
+            width: 380px;
+            margin: 0 auto;
+            margin-top: 130px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a {
+            top: 500px;
+            width: 330px;
+            padding: 2px 0 2px 32px;
+            font-size: 26px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a::before {
+            top: -3px;
+            left: 12px;
+        }
+
+        .section-person .container .inner-one {
+            width: 380px;
+            height: 100px;
+        }
+
+        .section-person .container .inner-one h6 {
+            font-size: 26px;
+        }
+
+        .section-person .container .inner-one h1 {
+            font-size: 38px
+        }
+
+        .section-person .container .inner-two {
+            width: 380px;
+            height: auto;
+            top: 580px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(2) {
+            background-position: 45% 0%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(2) .bag {
+            left: 24%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(4) {
+            margin-top: 30px;
+            background-position: 65% 10%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(4) .light {
+            left: 60%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(5) {
+            background-position: 45% 15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(6) {
+            background-position: 70% 82%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(6) .search {
+            left: 18%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(8) {
+            background-position: 35% 15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(8) .clown {
+            left: 22%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(10) {
+            background-position: 68% -15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(11) {
+            background-position: 33% 60%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(12) {
+            background-position: 55% 50%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(12) .tent {
+            left: 58%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(13) {
+            background-position: 68% 5%;
+        }
+    }
+
+    @media screen and (max-width: 414px) {
+        .section-stars {
+            background-position: -65px -32px;
+        }
+
+        .section-stars h2 {
+            padding-top: 50px;
+            font-size: 30px
+        }
+
+        .section-stars img {
+            right: -225px;
+        }
+
+        .section-person {
+            height: 800px;
+        }
+
+        .section-person .container #myCarousel {
+            height: 800px;
+        }
+
+        .section-person .container .carousel-inner {
+            height: 800px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a {
+            top: 450px;
+            width: 300px;
+            padding: 2px 0 2px 28px;
+            font-size: 24px;
+        }
+
+        .section-person .container .inner-one {
+            width: 360px;
+            height: 90px;
+        }
+
+        .section-person .container .inner-one h6 {
+            font-size: 23px;
+        }
+
+        .section-person .container .inner-one h1 {
+            font-size: 35px
+        }
+
+        .section-person .container .carousel-item img {
+            width: 330px;
+            margin-top: 120px;
+        }
+
+        .section-person .container .inner-two {
+            width: 325px;
+            top: 530px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-person .container .inner-two p {
+            font-size: 19px;
+            letter-spacing: 0;
+            line-height: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-person .container .inner-two p span:nth-child(2) {
+            padding: 0 28px;
+        }
+
+        .section-person .container .carousel-item .inner-two p + a {
+            width: 300px;
+            font-size: 26px;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(2) {
+            background-position: 40% 0%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(2) .bag {
+            left: 15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(6) {
+            background-position: 80% 75%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(6) .search {
+            left: 7%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(8) {
+            background-position: 28% 15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(8) .clown {
+            left: 15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(10) {
+            background-position: 80% -15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(11) {
+            background-position: 25% 60%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(13) {
+            background-position: 78% 5%;
+        }
+
+
+        footer .container .accordion:first-child {
+            margin-top: 10px
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .section-stars {
+            background-position: -128px -29px;
+        }
+
+        .section-stars img {
+            right: -265px;
+        }
+
+        .section-gallery .container .row h1 {
+            font-size: 30px
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(2) .bag {
+            left: 10%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(4) {
+            background-position: 80% 10%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(4) .light {
+            left: 65%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(6) {
+            background-position: 90% 75%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(6) .search {
+            left: 1%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(8) {
+            background-position: 20% 15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(8) .clown {
+            left: 8%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(10) {
+            background-position: 88% -15%;
+        }
+
+        .section-gallery .container .row .gallery-item:nth-child(11) {
+            background-position: 18% 60%;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .section-person {
+            height: 735px;
+        }
+
+        .section-person .container #myCarousel {
+            height: 735px;
+        }
+
+        .section-person .container .carousel-inner {
+            height: 735px;
+        }
+
+        .section-person .container .inner-one {
+            width: 320px;
+            height: 80px;
+        }
+
+        .section-person .container .inner-one h6 {
+            font-size: 20px;
+        }
+
+        .section-person .container .inner-one h1 {
+            font-size: 30px
+        }
+
+        .section-person .container .carousel-item img {
+            width: 290px;
+            margin-top: 110px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a {
+            top: 400px;
+            width: 280px;
+            font-size: 22px;
+        }
+
+        .section-person .container .carousel-item .inner-zero a::before {
+            top: -1px;
+            left: 10px;
+        }
+
+        .section-person .container .inner-two {
+            width: 290px;
+            top: 470px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .section-person .container .inner-two p {
+            font-size: 19px;
+            letter-spacing: 0;
+            line-height: 25px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section-person .container .inner-two p span:nth-child(2) {
+            padding: 0 0px;
+        }
+
+        .section-person .container .carousel-item .inner-two p + a {
+            width: 260px;
+            font-size: 26px;
+        }
+
+        footer .container .accordion:first-child {
+            margin-top: 30px;
+        }
+    }
